@@ -19,7 +19,6 @@ function FeaturedCourses() {
   const featuredCourses = courseData.courses.filter(
     (course: Course) => course.isFeatured
   );
-  //   console.log("*****", courseData);
   return (
     <div className="py-12 bg-gray-900">
       <div>
